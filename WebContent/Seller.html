@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<h2>SEARCH CLIENT BY USERNAME :</h2>
+<form action="searchclient">
+	<input type="text" name="uname">
+	<input type="submit" value="search">
+</form>
+<h2>SEARCH PROGRAM BY PROGRAM NAME :</h2>
+<form action="searchprogram">
+	<input type="text" name="programname">
+	<input type="submit" value="search">
+</form>
+
+
+<h2>ADD NEW CLIENT :</h2>
+<form action="addclient">
+<h3>username :</h3><input name="username">
+<h3>name :</h3><input name="name">
+<h3>surname :</h3><input name="surname">
+<h3>phone number :</h3><input name="pnumber"><br>
+<h3>AFM :</h3><input name="afm2"><br>
+<h3>password :</h3><input name="password"><br>
+<input type="submit">
+</form>
+<form action="updatedata">
+<h3>update</h3>
+<select name="updt">
+<option name="username" value="username">username</option>
+<option name="name" value="name">name</option>
+<option name="surname" value="surname">surname</option>
+<option name="password" value="password">password</option>
+</select>
+<input type="text" name="newdata">
+<input type="submit">
+</form>
+<form action="logoutofpage">
+<input type="submit" value="log out">
+</form>
+<form action="changeprogram">
+<h3>CHANGE CLIENT'S PROGRAM</h3>
+<h3>ENTER CLIENT'S USERNAME:</h3><input name="clientsus">
+<h3>ENTER CLIENT'S NEW PROGRAM NAME:</h3><input name="client_pro">
+<input type="submit" value="change client's program">
+</form>
+</body> 
+</html>
